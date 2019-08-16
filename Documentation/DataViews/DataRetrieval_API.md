@@ -401,6 +401,18 @@ Get mappings for a dataview by Id
 
 ### Parameters
 
+Id of tenant
+```csharp
+string tenantId  [Required] [No Default Value]
+```
+
+
+Id of namespace
+```csharp
+string namespaceId  [Required] [No Default Value]
+```
+
+
 Id of the dataview
 ```csharp
 string id  [Required] [No Default Value]
@@ -478,6 +490,18 @@ Get data items for a dataview by Id
 `GET api/tenants/{tenantId}/namespaces/{namespaceId}/dataviews/{id}/dataitems`
 
 ### Parameters
+
+Id of tenant
+```csharp
+string tenantId  [Required] [No Default Value]
+```
+
+
+Id of namespace
+```csharp
+string namespaceId  [Required] [No Default Value]
+```
+
 
 Id of the dataview
 ```csharp
@@ -581,6 +605,18 @@ Get statistics for a dataview by Id
 `GET api/tenants/{tenantId}/namespaces/{namespaceId}/dataviews/{id}/statistics`
 
 ### Parameters
+
+Id of tenant
+```csharp
+string tenantId  [Required] [No Default Value]
+```
+
+
+Id of namespace
+```csharp
+string namespaceId  [Required] [No Default Value]
+```
+
 
 Id of the dataview
 ```csharp
